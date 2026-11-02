@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mini Software House</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<header class="header">
+
+    <nav class="navbar">
+
+        <a href="#home" class="logo">
+            Tech<span>Nova</span>
+        </a>
+
+        <ul class="nav-menu" id="navMenu">
+
+            <li>
+                <a href="#home" class="nav-link active">Home</a>
+            </li>
+
+            <li>
+                <a href="#about" class="nav-link">About</a>
+            </li>
+
+            <li>
+                <a href="#team" class="nav-link">Team</a>
+            </li>
+
+            <li>
+                <a href="#projects" class="nav-link">Projects</a>
+            </li>
+
+            <li>
+                <a href="#github" class="nav-link">GitHub</a>
+            </li>
+
+        </ul>
+
+        <button class="menu-toggle" id="menuToggle">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+    </nav>
+
+</header>
+
+
+<!-- ================= HOME ================= -->
+
+<section id="home" class="hero">
+
+    <div class="hero-content">
+
+        <div class="hero-badge">
+            <span></span>
+            MINI SOFTWARE HOUSE
+        </div>
+
+        <h1>
+            Build.
+            <span>Create.</span>
+            Innovate.
+        </h1>
+
+        <p>
+            Mini Software House yang dibuat oleh mahasiswa
+            Teknik Informatika untuk mengembangkan berbagai
+            project digital dan aplikasi berbasis teknologi.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#projects" class="btn btn-primary">
+                Lihat Project
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+            <a href="#github" class="btn btn-outline">
+                <i class="fa-brands fa-github"></i>
+                GitHub
+            </a>
+
+        </div>
+
+        <div class="hero-info">
+
+            <div>
+                <strong>02</strong>
+                <span>Team Members</span>
+            </div>
+
+            <div>
+                <strong id="projectCount">04</strong>
+                <span>Projects</span>
+            </div>
+
+            <div>
+                <strong>100%</strong>
+                <span>Learning</span>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="hero-visual">
+
+        <div class="code-window">
+
+            <div class="window-header">
+
+                <div class="window-buttons">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <p>software-housemini</p>
+
+            </div>
+
+            <div class="code-content">
+
+                <p>
+                    <span class="code-purple">const</span>
+                    <span class="code-blue">team</span> =
+                    [
+                </p>
+
+                <p class="indent">
+                    {
+                </p>
+
+                <p class="indent2">
+                    name:
+                    <span class="code-green">"Safira Al Syifa"</span>,
+                </p>
+
+                <p class="indent2">
+                    role:
+                    <span class="code-green">"Font-end"</span>
+                </p>
+
+                <p class="indent">
+                    },
+                </p>
+
+                <p class="indent">
+                    {
+                </p>
+
+                <p class="indent2">
+                    name:
+                    <span class="code-green">"Hayaton Nufus"</span>,
+                </p>
+
+                <p class="indent2">
+                    role:
+                    <span class="code-green">"Back-end"</span>
+                </p>
+
+                <p class="indent">
+                    }
+                </p>
+
+                <p>];</p>
+
+                <br>
+
+                <p>
+                    <span class="code-purple">console</span>.
+                    <span class="code-blue">log</span>(
+                    <span class="code-green">"Let's build!"</span>
+                    );
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+
+<section id="about" class="section">
+
+    <div class="section-heading">
+
+        <span>ABOUT US</span>
+
+        <h2>
+            Small Team.
+            <strong>Big Ideas.</strong>
+        </h2>
+
+    </div>
+
+    <div class="about-grid">
+
+        <div class="about-text">
+
+            <p>
+                Kami adalah tim kecil yang terdiri dari dua mahasiswa
+                Teknik Informatika yang bekerja sama dalam membuat
+                berbagai project berbasis teknologi.
+            </p>
+
+            <p>
+                Website ini menjadi tempat untuk menampilkan project,
+                dokumentasi, dan repository GitHub yang telah kami
+                kerjakan selama proses belajar dan pengembangan.
+            </p>
+
+            <a href="#team" class="text-link">
+                Kenali Team Kami
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+
+        <div class="about-skills">
+
+            <div class="skill-item">
+                <div>
+                    <span>Web Development</span>
+                    <span>50%</span>
+                </div>
+
+                <div class="skill-bar">
+                    <span style="width:50%"></span>
+                </div>
+            </div>
+
+
+            <div class="skill-item">
+                <div>
+                    <span>Programming</span>
+                    <span>45%</span>
+                </div>
+
+                <div class="skill-bar">
+                    <span style="width:45%"></span>
+                </div>
+            </div>
+
+
+            <div class="skill-item">
+                <div>
+                    <span>UI / UX</span>
+                    <span>20%</span>
+                </div>
+
+                <div class="skill-bar">
+                    <span style="width:20%"></span>
+                </div>
+            </div>
+
+
+            <div class="skill-item">
+                <div>
+                    <span>Database</span>
+                    <span>75%</span>
+                </div>
+
+                <div class="skill-bar">
+                    <span style="width:75%"></span>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= TEAM ================= -->
+
+<section id="team" class="section section-dark">
+
+    <div class="section-heading center">
+
+        <span>OUR TEAM</span>
+
+        <h2>
+            Meet The
+            <strong>Team</strong>
+        </h2>
+
+        <p>
+            Dua orang, satu tujuan untuk terus belajar dan berkarya.
+        </p>
+
+    </div>
+
+
+    <div class="team-grid">
+
+        <!-- MEMBER 1 -->
+
+        <div class="team-card">
+
+            <div class="member-number">
+                01
+            </div>
+
+            <div class="member-avatar">
+                <img src="safira.jpeg" alt="Foto Anggota 1">
+            </div>
+
+            <div class="member-info">
+
+                <!-- GANTI NAMA -->
+                <h3>Safira Al Syifa</h3>
+
+                <!-- GANTI ROLE -->
+                <span></span>
+
+                <p>
+                    Saya ingin belajar dalam pengembangan website,
+                    sistem dan integrasi database.
+                </p>
+
+                <div class="member-social">
+
+                    <!-- GANTI LINK GITHUB -->
+                    <a href="https://github.com/safiraalsyifa9-source" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+
+                    <a href="https://safiraalsyifa9-source.github.io/portofolio/">
+                        <i class="fa-solid fa-globe"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- MEMBER 2 -->
+
+        <div class="team-card">
+
+            <div class="member-number">
+                02
+            </div>
+
+            <div class="member-avatar">
+                <img src="nufus.jpeg" alt="Foto Anggota 2">
+            </div>
+
+            <div class="member-info">
+
+                <!-- GANTI NAMA -->
+                <h3>Hayaton Nufus</h3>
+
+                <!-- GANTI ROLE -->
+                <span></span>
+
+                <p>
+                    Saya ingin belajar membuat pengembangan website,
+                    UI/UX 
+                </p>
+
+                <div class="member-social">
+
+                    <!-- GANTI LINK GITHUB -->
+                    <a href="https://github.com/nufus7568-rgb" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+
+                    <a href="https://nufus7568-rgb.github.io/profil/">
+                        <i class="fa-solid fa-globe"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= PROJECTS ================= -->
+
+<section id="projects" class="section">
+
+    <div class="section-heading">
+
+        <span>OUR WORK</span>
+
+        <h2>
+            Recent
+            <strong>Projects</strong>
+        </h2>
+
+        <p>
+            Beberapa project yang telah atau sedang kami kerjakan.
+        </p>
+
+    </div>
+
+
+    <!-- SEARCH -->
+
+    <div class="project-tools">
+
+        <div class="search-box">
+
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+            <input
+                type="text"
+                id="projectSearch"
+                placeholder="Cari project..."
+            >
+
+        </div>
+
+
+        <div class="filter-buttons">
+
+            <button class="filter-btn active" data-filter="all">
+                Semua
+            </button>
+
+            <button class="filter-btn" data-filter="web">
+                Web
+            </button>
+
+            <button class="filter-btn" data-filter="system">
+                System
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <div class="projects-grid" id="projectsGrid">
+
+
+        <!-- PROJECT 1 -->
+
+        
+<article class="project-card" data-category="system">
+
+    <div class="project-image project-one">
+        <img src="karyakita.png" alt="Tampilan website KARYAKITA">
+    </div>
+
+</article>
+
+                <span>01</span>
+
+                <i class="fa-solid fa-hospital"></i>
+
+            </div>
+
+            <div class="project-content">
+
+                <div class="project-category">
+                    SYSTEM
+                </div>
+
+                <h3>project 1 KARYAKITA</h3>
+
+                <p>
+                    Platform berbasis web untuk komunitas kreatif dan UMKM yang mendukung promosi produk, pencarian produk, serta kolaborasi kreatif melalui teknologi digital..
+                </p>
+
+                <div class="tech-list">
+                    <span>laravel</span>
+                    
+                </div>
+<div class="project-links">
+    <a href="https://karyakita.infinityfree.io/" target="_blank" rel="noopener noreferrer">
+        Live Demo
+        <i class="fa-solid fa-globe"></i>
+    </a>
+</div>
+
+
+                    
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- PROJECT 2 -->
+
+        <article class="project-card" data-category="web">
+
+            <div class="project-image project-two">
+
+                <span>02</span>
+
+                <i class="fa-solid fa-cash-register"></i>
+
+            </div>
+
+            <div class="project-content">
+
+                <div class="project-category">
+                    WEB
+                </div>
+
+                <h3>Project 2</h3>
+
+                <p>
+                    descripsi.
+                </p>
+
+                <div class="tech-list">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+
+                <div class="project-links">
+
+                    <a href="https://github.com/" target="_blank">
+                        GitHub
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+
+                    <a href="#" class="view-project">
+                        View Project
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- PROJECT 3 -->
+
+        <article class="project-card" data-category="system">
+
+            <div class="project-image project-three">
+
+                <span>03</span>
+
+                <i class="fa-solid fa-book"></i>
+
+            </div>
+
+            <div class="project-content">
+
+                <div class="project-category">
+                    SYSTEM
+                </div>
+
+                <h3>Project 3</h3>
+
+                <p>
+                    descripsi.
+                </p>
+
+                <div class="tech-list">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+
+                <div class="project-links">
+
+                    <a href="https://github.com/" target="_blank">
+                        GitHub
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+
+                    <a href="#" class="view-project">
+                        View Project
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- PROJECT 4 -->
+
+        <article class="project-card" data-category="web">
+
+            <div class="project-image project-four">
+
+                <span>04</span>
+
+                <i class="fa-solid fa-wallet"></i>
+
+            </div>
+
+            <div class="project-content">
+
+                <div class="project-category">
+                    WEB
+                </div>
+
+                <h3>project 4</h3>
+
+                <p>
+                    deskripsi.
+                </p>
+
+                <div class="tech-list">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+
+                <div class="project-links">
+
+                    <a href="https://github.com/" target="_blank">
+                        GitHub
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+
+                    <a href="#" class="view-project">
+                        View Project
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- ================= GITHUB ================= -->
+
+<section id="github" class="section section-dark">
+
+    <div class="section-heading center">
+
+        <span>OUR GITHUB</span>
+
+        <h2>
+            Code &
+            <strong>Repository</strong>
+        </h2>
+
+        <p>
+            Temukan source code dan project kami di GitHub.
+        </p>
+
+    </div>
+
+
+    <div class="github-grid">
+
+        <!-- GITHUB MEMBER 1 -->
+
+        <div class="github-card">
+
+            <div class="github-icon">
+                <i class="fa-brands fa-github"></i>
+            </div>
+
+            <div>
+
+                <span>GitHub Member 01</span>
+
+                <h3>Safira Al Syifa</h3>
+
+                <p>
+                    Repository dan project pribadi.
+                </p>
+
+            </div>
+
+            <!-- GANTI LINK -->
+            <a href="https://github.com/safiraalsyifa9-source" target="_blank">
+                Visit GitHub
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+
+        </div>
+
+
+        <!-- GITHUB MEMBER 2 -->
+
+        <div class="github-card">
+
+            <div class="github-icon">
+                <i class="fa-brands fa-github"></i>
+            </div>
+
+            <div>
+
+                <span>GitHub Member 02</span>
+
+                <h3>Hayaton Nufus</h3>
+
+                <p>
+                    Repository dan project pribadi.
+                </p>
+
+            </div>
+
+            <!-- GANTI LINK -->
+            <a href="https://github.com/nufus7568-rgb" target="_blank">
+                Visit GitHub
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="repository-box">
+
+        <div>
+            <span>PROJECT REPOSITORIES</span>
+
+            <h3>
+                Semua source code project
+                tersedia di GitHub.
+            </h3>
+        </div>
+
+        <a href="https://github.com/safiraalsyifa9-source" target="_blank" class="btn btn-primary">
+            <i class="fa-brands fa-github"></i>
+            Open GitHub
+        </a>
+
+    </div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+
+    <div class="footer-content">
+
+        <div class="footer-logo">
+            MINI<span>SOFTWARE</span>
+        </div>
+
+        <p>
+            Built by 2 students of Informatics Engineering.
+        </p>
+
+        <div class="footer-social">
+
+            <a href="https://github.com/safiraalsyifa9-source" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+
+            <a href="https://www.instagram.com/safira_alsyifa/">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <p>
+            © <span id="year"></span> Mini Software House.
+            All Rights Reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
